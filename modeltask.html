@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Model</title>
+    <title>Modeltask</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="model.css">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
 <body>
     
     <nav class="navbar p-0 navbar-light" style="background-color: #e3f2fd;">
 
         <div class="container">
 
-                <span class="navbar-header">Hotel</span>
+                <span class="navbar-header"><i class="fa-solid fa-hotel"></i> Hotel</span>
 
                      <ul class="nav justify-content-end">
                         <li class="nav-item ">
                           <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#aboutsec">About Us</a>
+                            <a class="nav-link active" aria-current="page" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#productsec">Rooms</a>
+                            <a class="nav-link active" aria-current="page" href="#rooms">Rooms</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#featuresec">Foods</a>
+                            <a class="nav-link active" aria-current="page" href="#foods">Foods</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#contactus">Contact us</a>
@@ -68,21 +71,329 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div> 
+    </div> 
       
-      <div class="container-fluid " id="aboutsec">
-        <div class="row">
-            <div class="col-6">
-                <img src="hotel_industry.jpg"  class="img-responsive img-circle margin" style="float: left;" alt="" width="700" height="400">
+    <div class="container-fluid " id="about">
+        <div class="row pt-5" >
+            <div class="col-4">
+                <img src="https://mekiasashi.wordpress.com/wp-content/uploads/2017/04/bell-hotel-key-20093291024140677801.jpg"  class="img-responsive img-circle margin" style="float: left;" alt="" width="450" height="400">
             </div>
-        <div class="col-6">
+        <div class="col-3">
             <div class="top">
-              <h3 class="header">About Us</h3>
-              <p>You can give here a brief describtion of the topic you want to <br>talk about.For example,if you want to talk about Mercury,You can say <br> that it's the smallest planet of solar system...</p>
+              <h3 class="header">Hotel Marketting</h3>
+              <p class="size">Hotels need a combination of online and offline marketing to drive business.Having consistent, relevant, and engaging content Be consistent, get creative, use multiple channels, and repurpose...</p>
               <button type="button" class="btn1 btn-success">Read More</button>
             </div>
         </div>
+        <div class="col-5">
+          <img src="https://www.buylandingpagedesign.com/example/hotel-and-restaurant-lead-capture-responsive-landing-page-007-th.jpg"  class="img-responsive img-circle margin" style="float: left;" alt="" width="550" height="400">
+        </div>
+        </div>
+    </div>
+    
+    <section class="rooms" id="rooms">
+      <div class="container  py-2">
+        <div class="row pt-5 pb-2">
+          <div class="col-8 m-auto text-center">
+            <h1 class="head">Our Rooms</h1>
+            <p class="size">A 5-star hotel will typically be powered by a hotel channel manager and offer guests several different room types,each featuring its own set of amenities, number of beds and layout.</p>
+          </div>
+          <div class="col-4 " id="list">
+            <div class="btn-group ">
+              <a href="#queen"  class="btn btn-outline-primary " aria-current="page">Queen</a>
+              <a href="#deluxe" class="btn btn-outline-primary ">Deluxe</a>
+              <a href="#juniorsuites" class="btn btn-outline-primary ">Junior Suites</a>
+            </div>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-6 text-center">
+            <div class="card border-1" style="background-color: #e3f2fd;">
+              <div class="card-body" id="queen">
+                <img src="https://www.queenmary.com/files/6994/QM_STES_M106_Full_Suite_Bedroom_2.JPEG" class="img-fluid"style="height: 350px; width:600px ;" alt="...">
+              </div>
+                <h2>Queen AC Room</h2>
+                <p>A queen-sized bed, air conditioning, Wi-Fi, a TV, and a bathroom with amenities <br> like toiletries and a shower. </p>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+              <div class="card border-1" style="background-color: #e3f2fd;">
+                <div class="card-body" id="queen">
+                    <img src="https://d23n7ahjfnjotp.cloudfront.net/imgs/iphone/cabins/new/110/hbxl.jpg" class="img-fluid"style="height: 350px; width:600px ;" alt="...">
+                </div>
+                    <h2>Queen non AC Room</h2>
+                    <p>Allowing the comfort and privacy of their Supreme Queen rooms.you can indulge in a delectable feast without having to leave your room. </p>
+              </div>
+          </div>
+        </div>
+        <div class="row pt-3 ">
+          <div class="col-lg-6 text-center">
+              <div class="card border-1" style="background-color: #e3f2fd;">
+                <div class="card-body" id="deluxe">
+                    <img src="https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/3/2017/12/Deluxe-Double-Guestroom2.jpg" class="img-fluid"style="height: 350px; width:600px ;" alt="...">
+                </div>
+                    <h2>Deluxe AC Room</h2>
+                    <p>A hotel room that is a step up from a standard room, offering more space, upgraded furnishings, and amenities, often including a larger bed suitable for two people.  </p>
+              </div>
+          </div>
+          <div class="col-lg-6 text-center">
+              <div class="card border-1" style="background-color: #e3f2fd;">
+                <div class="card-body" id="deluxe">
+                    <img src="https://www.bentleyhotelnyc.com/resourcefiles/room-types/accessible-1-queen-bed-superior.jpg" class="img-fluid"style="height: 350px; width:600px ;" alt="...">
+                </div>
+                    <h2>Deluxe non AC Room</h2>
+                    <p>Allowing the comfort and privacy of their Supreme Queen rooms.you can indulge in a delectable feast without having to leave your room. </p>
+              </div>
+          </div>
+        </div>
+        <div class="row pt-3 ">
+          <div class="col-lg-6 text-center">
+              <div class="card border-1" style="background-color: #e3f2fd;">
+                <div class="card-body" id="juniorsuites">
+                    <img src="https://www.peninsula.com/en/-/media/12---london-property/rooms/20230918-new-images/london_junior-suite-king_resized.jpg?mw=905&hash=93AAE1051726883B15B94BB324BF8D13" class="img-fluid"style="height: 350px; width:600px ;" alt="...">
+                </div>
+                    <h2>Junior AC Room</h2>
+                    <p>A hotel room that is a step up from a standard room, offering more space, upgraded furnishings, and amenities, often including a larger bed suitable for two people.  </p>
+              </div>
+          </div>
+          <div class="col-lg-6 text-center">
+              <div class="card border-1" style="background-color: #e3f2fd;">
+                <div class="card-body" id="juniorsuites">
+                    <img src="https://image-tc.galaxy.tf/wijpeg-9r9tlbqa6jai22libvbgu5mqm/junior-suite-room_wide.jpg?crop=0%2C100%2C1920%2C1080" class="img-fluid"style="height: 350px; width:600px ;" alt="...">
+                </div>
+                    <h2>Junior non AC Room</h2>
+                    <p>Allowing the comfort and privacy of their Supreme Queen rooms.you can indulge in a delectable feast without having to leave your room. </p>
+                </div>
+          </div>
+        </div>
+          <div class="col-lg text-end pt-2">
+            <a type="button" class="btn btn-success" href="#list">Back</a>
+          </div>
+      </div>
+    </section>
+
+    <section class="foods" id="foods">
+      <div class="container  pt-3">
+        <div class="row ">
+          <div class="col-8 m-auto text-start">
+              <h1 class="head">Tasty Cuisines</h1>
+              <p class="size">In order to perform well in life, our body needs energy. We get this energy from the food we eat.Food comes in a wide variety all around the world. Dosa, Paneer, Naan, Chapati, Biryani, and more Indian delicacies are available. We are also offered western cuisines such as noodles, pasta, burgers, fries, pizzas and more dominating the food industry.</p>
+          </div>
+          <div class="col-4 " id="menutype">
+            <div class="btn-group ">
+              <a href="#veg"  class="btn btn-outline-primary " aria-current="page">Indian Veg</a>
+              <a href="#nonveg" class="btn btn-outline-primary ">Indian NonVeg</a>
+              <a href="#american" class="btn btn-outline-primary ">American</a>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-2">
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="veg">
+                <img src="https://www.madhuseverydayindian.com/wp-content/uploads/2021/09/indian-dinner-party-menu-768x1024.jpg" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+              <h5 class="item">Meals</h5>
+              <p class="word">Charming and hihgly pleasant to the taste.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="veg">
+                <img src="https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-92338000000000000/menu/items/1/item-600000000393200031_1637621116.jpg?size=medium" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">Idly</h5>
+                <p class="word">Mildly tangy or slightly sour flavor. </p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="veg">
+                <img src="https://maharajaroyaldining.com/wp-content/uploads/2024/03/Masala-Dosa-1.webp" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">Dosai</h5>
+                <p class="word">A savory profile and crispy texture.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="veg">
+                <img src="https://static.tnfoodie.in/photo/88955193.cms" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">Poori</h5>
+                <p class="word">A deep-fried Indian bread and slightly crispy.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="veg">
+                <img src="https://harpalssokhi.com/wp-content/uploads/2021/09/idiyappam-.jpg" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">Idiyappam</h5>
+                <p class="word">A subtle wood-like aroma from the steaming process. </p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="veg">
+                <img src="https://i.pinimg.com/736x/99/04/a5/9904a5198538f9bcfdd32c716ed33845.jpg" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">Pongal</h5>
+                <p class="word">It's a savory rice and lentil porridge, similar to khichdi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-2">
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="nonveg">
+                <img src="https://images.slurrp.com/webstories/wp-content/uploads/2024/02/istockphoto-488481490-612x612-1.jpg" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+              <h5 class="item">Briyani</h5>
+              <p class="word">Offering a rich,flavorful,and slightly spicy experience.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="nonveg">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUvyss5JSeaXD9isw_NJJ0iHkqYOqy3xdgBDRPPJ8khivM6ym5hdtqhlkUnYFPvhaUMOqq1Rf4s25ZOBExGg13K9r00v8Y6UKKlC4JBWeaNCERjfoxt8YoL-LPHwFsCQApAZiLCPb8wS0/s1600/9234.jpg" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">Fish Fry</h5>
+                <p class="word">Crispy,crunchy,a hint of spice and juicy interior.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="nonveg">
+                <img src="https://www.yellowthyme.com/wp-content/uploads/2016/04/Kerala-Shrimp-Curry-3.jpg" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">Prawn Curry</h5>
+                <p class="word">Fresh seafood flavor with a delicate.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="nonveg">
+                <img src="https://i0.wp.com/southindianrecipes.in/wp-content/uploads/2021/09/Fish-Curry-Recipe.jpg" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">Fish Curry</h5>
+                <p class="word">Mild and sweet (lean) to rich and strong (fatty)</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="nonveg">
+                <img src="https://www.spiceindiaonline.com/wp-content/uploads/2021/05/Tandoori-Chicken-20-500x400.jpg" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">Tandoori Chicken</h5>
+                <p class="word">Spicy, smoky,and flavorful taste.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="nonveg">
+                <img src="https://www.freshtohome.com/blog/wp-content/uploads/2024/06/Screenshot-2024-06-26-140110.png" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">Mutton Curry</h5>
+                <p class="word">Rich, savory, and slightly gamey taste.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-2">
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="american">
+                <img src="https://content.jdmagicbox.com/comp/def_content/pizza_outlets/default-pizza-outlets-13.jpg" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+              <h5 class="item">Pizza</h5>
+              <p class="word">Savory,cheesy,and often tangy flavors.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="american">
+                <img src="https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_2560%2Cc_limit/Smashburger-recipe-120219.jpg" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">CheeseBurger</h5>
+                <p class="word">Creamy melted cheese,and the soft,slightly sweet bun.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="american">
+                <img src="https://content.jdmagicbox.com/comp/def_content/fried-chicken-restaurants/vd1nmtvmgu-fried-chicken-restaurants-10-ofk8x.jpg" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">Fried Chicken</h5>
+                <p class="word">Juicy textures with a savory,sometimes spicy.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="american">
+                <img src="https://media.licdn.com/dms/image/v2/C4E12AQHRYS7bYXRAog/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1625554426787?e=2147483647&v=beta&t=HXENNjFcONPr8P85CkJhXn5VcQDyVj63Nur6hNgmxks" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">French fries</h5>
+                <p class="word">Savory,slightly sweet,and salty combination.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="american">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/170203114255-banana-split.jpg?q=w_1110,c_fill/f_webp" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">Banana split</h5>
+                <p class="word">Sweet and creamy flavors,with the soft.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-1 bg-light ">
+              <div class="card-body" id="american">
+                <img src="https://www.allrecipes.com/thmb/DgBXXAvMRVT4084of-AP-hbNil4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/98979-lobster-rolls-ddmfs-beauty-4x3-BG-3540-9f9cc53d218344f6ab3cbee7bbc958c7.jpg" class="img-fluid"style="height: 150px; width:300px ;" alt="...">
+              </div>
+                <h5 class="item">Lobster Rolls</h5>
+                <p class="word">Sweet,succulent,a touch of briny sea flavor.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg text-end pt-2">
+          <a type="button" class="btn btn-success" href="#menutype">Back</a>
         </div>
       </div>
+    </section>
+
+    <section class="Contact" id="contactus" >
+      <div class="container py-2">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+              <img src="https://www.slideegg.com/image/catalog/70798-thank-you-pics-for-ppt.png" class="img-fluid" style="height: 467px; width: 700px ;" alt="...">
+            </div>
+            <div class="col-lg-6 text-center ">
+              <div class="card border-1 " style="background-color: #e3f2fd;" >
+                <h1 class="head ">Contact Us</h1>
+              </div>
+            <div class="card border-1 mt-2" style="background-color: #e3f2fd;">
+            <div class="card-body">
+              <div class="mb-3 ">
+                <input type="text" class="form-control" style="padding: 10px;" id="formGroupExampleInput" placeholder="Your name">
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" style="padding: 10px;" id="formGroupExampleInput" placeholder="your email">
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" style="padding: 10px;" id="formGroupExampleInput" placeholder="address">
+              </div>
+              <div class="textarea mb-1">
+                <textarea rows="3" cols="10" type="text" class="form-control" style="padding: 10px;" id="formGroupExampleInput"  placeholder="Feedback"></textarea>
+              </div>
+              <div class="content pb-1 text-center">
+                <button type="button" class="btn1 btn-success">Submit Feedback</button>
+              </div>
+            </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </section>   
+       
 </body>
 </html>

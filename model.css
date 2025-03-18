@@ -1,6 +1,6 @@
 .navbar-header
 {
-    color:rgb(135, 53, 157);
+    color: #8f4d7f;
     font-weight:bolder;
     font-size: 50px;
 }
@@ -25,7 +25,15 @@ body{
 }
 .header{
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 50px;
+    color:  #0866ff;
+}
+p{
+    font-weight: 500;
+}
+.size{
+    font-weight: 500;
+    font-size: 20px;
 }
 .btn1
 {
@@ -34,4 +42,25 @@ body{
     font-size:20px;
     margin-top: 10px;
     border: none;
+}
+.head{
+    color: #f2550d;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.item{
+
+    font-weight: bolder;
+}
+.word{
+    padding: 0px 5px;
+}
+.fa-hotel{
+    font-size: 45px;
+    color: #da9eda;
+}
+.col-4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
