@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width:500px;
+            height:300px;
+            background-color: blanchedalmond;
+            margin:auto;
+            padding: 10px;
+        }
+        th,td{
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    
+        <table border="1">
+            <h1 style="text-align: center;">Registration Form</h1>
+        <form>
+            
+            <tr>
+                <td><label>Name</label></td>
+                <td><input type="text" name="name" value=""></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label>Age</label></td>
+                <td><input type="text" name="age" value=""></td>
+            </tr>
+            <tr>
+                <td><label>Address</label></td>
+                <td><textarea>banglore</textarea></td>
+            </tr>
+            <tr>
+                <td><label>phonenumber</label></td>
+                <td><input type="number" name="phonenumber" value=""></td>
+            </tr>
+            <tr>
+                <td><label>gender</label></td>
+                <td>
+                    <input type="radio" name="gender" value="male">male
+                    <input type="radio" name="gender" value="female">female 
+                </td>
+            </tr>
+            <tr>
+                <td><label>Language</label></td>
+                <td>
+                    <input type="checkbox" name="language" value="English">English
+                    <input type="checkbox" name="language" value="tamil">Tamil 
+                    <input type="checkbox" name="language" value="Hindi">Hindi 
+                </td>          
+              </tr>
+              <tr>
+                <td><label>Email</label></td>
+                <td><input type="email" name="email" value=""></td>
+            </tr> 
+            <tr>
+                <td><label>Qualification</label></td>
+                <td><select>
+                    <option>BE</option>
+                    <option>ME</option>
+                    <option>Bcom</option>
+                    <option>BTech</option>
+                    <option>Bsc</option>
+
+
+
+                </select></td>
+            </tr><br>
+            <tr>
+                <td><input type="submit" value="Register"></td>
+                <td><input type="reset" value="Cancel"></td>
+            </tr>
+            
+        </form>
+        </table>
+    
+</body>
+</html>
