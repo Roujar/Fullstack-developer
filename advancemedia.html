@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+    <style>
+        .box{
+            text-align:center ;
+            background-color: rgb(255,196,0);
+            color:white;
+            font-size:50px;
+        }
+        @media(min-width:400px) and (max-width:500px){
+            #box1
+            {
+                display: block;
+                background-color: aqua;
+            }
+        }
+        @media(min-width:500px) and (max-width:600px){
+            #box2
+            {
+                display: block;
+                background-color: rgb(0, 255, 30);
+            }
+        }
+        @media(min-width:600px) and (max-width:700px){
+            #box3
+            {
+                display: block;
+                background-color: rgb(72, 0, 255);
+            }
+        }
+        @media(min-width:700px) and (max-width:800px){
+            #box4
+            {
+                display: block;
+                background-color: rgb(255, 0, 204);
+            }
+        }
+        @media(min-width:800px) and (max-width:900px){
+            #box5
+            {
+                display: block;
+                background-color: aqua;
+            }
+        }
+    </style>
+</head>
+<body>
+  <div class="box" id="box1">windows</div>  
+  <div class="box" id="box2">macos</div>  
+  <div class="box" id="box3">linux</div>  
+  <div class="box" id="box4">andriod</div>  
+  <div class="box" id="box5">ios</div>  
+
+</body>
+</html>

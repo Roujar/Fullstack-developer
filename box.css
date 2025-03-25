@@ -1,0 +1,31 @@
+div{
+
+    width: 500px;
+    height: 600px;
+    background-color: rgb(243, 193, 234);
+    border: 10px groove rgb(237, 13, 237);
+    margin: 30px;
+    overflow: scroll;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#sports{
+
+    text-align: center;
+    align-items: center;
+    color: #4107f7;
+
+}
+span{
+
+    color: #bdb629;
+
+    }
+
+#para{
+
+    font-style: sans-serif;
+    margin-left: 20px;
+    color: #2f57bf;
+}

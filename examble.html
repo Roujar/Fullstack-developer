@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examble</title>
+    <style>
+
+        .parent{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            gap: 100px;
+            align-items: center;
+            justify-content: center;
+            padding-top: 150px;
+        }
+        .header{
+            margin-bottom: 150px;
+        }
+        .header h1{
+            height: auto;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 60px;
+            font-weight: 900;
+            margin: 0;
+            color: #0866ff;
+        }
+        .header p{
+            color: rgb(28, 30, 33);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            font-weight: 400;
+            margin: 0;
+
+        }
+        .child{
+            height: auto;
+            background-color: white;
+            border: 1px solid rgb(221, 223, 226);
+            border-radius: 5px;
+            padding: 20px 30px 20px 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .label{ 
+
+            font-size: 16px;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(103, 104, 105);
+
+        }
+        .box{
+
+            width: 270px;
+            height: 30px;
+            border: 1px solid rgb(221, 223, 226);
+            border-radius: 5px;
+        }
+        .box:hover{
+
+            border-color: #0866ff;
+        }
+        .button{
+
+            width: 275px;
+            height: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            border-radius: 5px;
+            background-color: #0866ff;
+            color: white;
+            cursor: pointer;
+        }
+        .para{
+
+            text-align: center;
+            margin: 0px;
+            margin: 10px 10px 10px 0px;
+            font-size: 13px;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #0866ff;
+            cursor: pointer;
+           
+        }
+        .para:hover{
+
+            text-decoration: underline;
+        }
+        .divider{
+
+            border-bottom: 1px solid rgb(221, 223, 226);
+           
+        }
+        .create-btn{
+            height: 40px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            background-color: #42b72a;
+            color: azure;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .account-section{
+            display: flex;
+            justify-content: center;
+        }
+        @media(min-width: 450px) and (max-width: 600px){
+          .parent  .child{
+                background-color: #de9ec8;
+            }
+        }
+        @media(min-width: 700px) and (max-width: 900px){
+          .parent  .child{
+                background-color: #9dd8db;
+            }
+        }
+        @media(max-width: 960px) {
+            .parent .header p{
+                font-size: 18px !important;
+                font-weight: 400 !important;
+            }
+        } 
+        @media(max-width: 960px) {
+            .parent{
+                gap: 20px !important;
+            }
+        }
+        @media(max-width: 800px) {
+            .parent{
+                gap: 20px !important;
+                flex-wrap: wrap;
+            }
+        }
+        @media(max-width: 690px) {
+            .header{
+                margin-bottom: 0px !important;
+            }
+        }
+        @media(max-width: 690px) {
+            .parent{
+                padding-top: 0px !important;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="parent">
+            <div class="header">
+                <h1>facebook</h1>
+                <p>Facebook helps you connect and share <br> with the people in your life</p>
+            </div>
+            <form class="child">
+    
+             <label class="label" for="Uname">Username:</label><br>
+             <input class="box" type="text" name="uname" value=""><br><br>
+    
+             <label class="label" for="pword">Password:</label><br>
+             <input class="box" type="password" name="password" value=""><br><br>
+    
+             <button class="button">Log in</button>
+    
+             <p class="para">Forgotten password?</p>
+    
+             <div class="divider"></div>
+    
+            <div class="account-section"> 
+    
+                <button class="create-btn">Create new account</button>
+    
+            </div>
+    
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

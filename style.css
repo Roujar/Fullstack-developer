@@ -1,0 +1,22 @@
+div{
+    background-color: rgb(244, 198, 229);
+    width: 650px;
+    height: 500px;
+    padding: 20px;
+}
+p{
+    font-size: 20px;
+    padding: 20px;
+}
+.one{
+    background-color: rgb(60, 235, 176);
+}
+#two{
+    background-color: rgb(116, 109, 181);
+}
+.three{
+    background-color: rgb(168, 200, 74);
+}
+h1,h2{
+    text-align: center;
+}
