@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube</title>
+</head>
+<body>
+
+    <script>
+
+        /*without parameter without return type*/
+        function cube ()
+        {
+            var x=5;
+            var result=x*x*x;
+            document.write("The cube is :"+result +"<br>");
+        }
+        cube();
+
+        /*with parameter without return type*/
+        function cube1 (x)
+        {
+            var result=x*x*x;
+            document.write("The cube is :"+result +"<br>");
+        }
+        cube1(3);
+
+        /*without parameter with return type*/
+        function cube2 ()
+        {
+            var x=4
+            var result=x*x*x;
+            return result;
+        }
+            document.write("The cube is :"+cube2()+"<br>");
+             
+        /*with parameter with return*/
+        function cube3 (x)
+        {
+            var result=x*x*x;
+            return result;
+        }
+            document.write("The cube is :"+cube3(6));
+
+    </script>
+    
+</body>
+</html>

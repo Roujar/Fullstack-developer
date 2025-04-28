@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* without parameter without return type*/
+        function add()
+        {
+           var x=parseInt(prompt("enter the x"));
+           var y=parseInt(prompt("enter the y"));
+
+           var z=x+y;
+           console.log("The output is=:"+z)
+        }
+        add();
+                /* with parameter without return type*/
+
+        function sub(x,y)
+        {
+           
+           var z=x-y;
+           console.log("The output is=:"+z)
+        }
+        sub(10,2);
+
+                 /* without parameter with return type*/
+
+        function mul()
+        {
+           var x=parseInt(prompt("enter the x"));
+           var y=parseInt(prompt("enter the y"));
+
+           var z=x*y;
+           return z;
+        }
+       document.write(mul()+"<br>");
+
+                 /* with parameter with return type*/
+
+        function div(x,y)
+        {
+            var z=x/y;
+            return z;
+        }
+        document.write(div(10,5));
+       
+
+    </script>
+</body>
+</html>
