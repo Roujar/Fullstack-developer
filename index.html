@@ -3,53 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student</title>
+    <title>BMI calculate</title>
+    <script src="bmi.js"></script>
 </head>
 <body>
+    
+    <h1>BMI Calculate</h1>
+    <label for="weight">Weight (kg):</label>
+    <input type="number" id="weight" placeholder="Enter weight"><br><br>
 
-    <script>
+    <label for="height">Height (cm):</label>
+    <input type="number" id="height" placeholder="Enter height"><br><br>
 
-         var id="B332025";
-         var name="Robin";
-         var initial="J.";
-         var M1=parseInt(prompt("enter the mark1"));
-         var M2=parseInt(prompt("enter the mark2"));
-         var M3=parseInt(prompt("enter the mark3"));
-         var M4=parseInt(prompt("enter the mark4"));
-         var M5=parseInt(prompt("enter the mark5"));
-         var total=M1+M2+M3+M4+M5
-         var per=(total*100/500);
-         document.write("ID :"+id+"<br>");
-         document.write("NAME :"+initial+name+"<br>");
-         document.write("TOTAL :"+total+"<br>");
-         document.write("PERCENTAGE :"+per+"%"+"<br>");
+    <button onclick="calculateBMI()">Calculate BMI</button>
 
-         if (per>=90)
-            {
-                document.write("RESULT :"+"Grade A");
-            }
-        else if (per>=80 && per<90)
-            {
-                document.write("RESULT :"+"Grade B");
-            }
-        else if (per>=70 && per<80)
-            {
-                document.write("RESULT :"+"Grade C");
-            }
-        else if (per>=60 && per<70)
-            {
-                document.write("RESULT :"+"Grade D");
-            }
-        else if (per>=50 && per<60)
-            {
-                document.write("RESULT :"+"Grade E");
-            }
-        else  
-            {
-                document.write("RESULT :"+"Fail");
-            }
-
-    </script>
+    <h3>BMI: <span id="bmiResult"></span></h3>
+    <h3>Category: <span id="bmiCategory"></span></h3>
 
 </body>
 </html>
