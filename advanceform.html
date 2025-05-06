@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanceform</title>
+    <link rel="stylesheet" type="text/css" href="form.css"/>
+    <script src="form.js"></script>
+
+</head>
+<body>
+    <form name="regform" action="success.html" onsubmit="return validateForm()">
+    <h1>RegistrationForm</h1>
+    <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"/>
+        <span id="name-error" class="error-message"></span>
+    </div>
+    <div>
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address" placeholder="Enter your address"/>
+        <span id="address-error" class="error-message"></span>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email"/>
+        <span id="email-error" class="error-message"></span>
+    </div>
+    <div>
+        <label for="password">password</label>
+        <input type="text" id="pwd" name="pwd" placeholder="Enter your password"/>
+        <span id="pwd-error" class="error-message"></span>
+    </div>
+    <div class="center">
+        <input type="submit" value="send" name="submit"/>
+        <input type="reset" value="reset" name="reset"/>
+
+    </div>
+</form>
+</body>
+</html>
