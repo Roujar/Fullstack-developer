@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query</title>
+</head>
+<body>
+
+    <!-- <p>This is my para</p>
+    <script>
+        var x=document.querySelector("p");
+        console.log(x)
+    </script>
+
+    <p id="demo">This is my id para</p>
+    <script>
+        var x=document.querySelector("#demo");
+        console.log(x)
+    </script>
+
+    <p class="demo">This is my class para</p>
+    <script>
+        var x=document.querySelector(".demo");
+        console.log(x)
+    </script> -->
+
+   
+    <p>This is my para</p>
+    <p class="demo">This is my class para</p>
+    <p id="test">This is my id para</p>
+    <h1>hi</h1>
+    <h1>hello</h1>
+    <h1>hru</h1>
+
+
+    <script>
+
+        var type1=document.querySelector("p");
+        type1.style.backgroundColor="blue";
+
+        var type2=document.querySelector(".demo");
+        type2.style.backgroundColor="cyan"; 
+
+        var type3=document.querySelector("#test");
+        type3.style.backgroundColor="pink";
+
+        var type4=document.querySelectorAll("h1");
+        type4[0].style.background="blue";
+        type4[1].style.backgroundColor="green";
+        type4[2].style.backgroundColor="orange";
+
+
+
+    </script>
+
+</body>
+</html>

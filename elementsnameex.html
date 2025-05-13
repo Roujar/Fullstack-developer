@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementname</title>
+
+    <script>
+        function show()
+        {
+            const x=document.getElementsByName("rating");
+            var count=0;
+            for(let i=0; i<x.length;i++)
+        {
+            if(x[i].checked)
+           {
+            count++;
+           }
+        }
+        alert("Element is checked"+count);
+        }
+            console.log(x);
+        
+    </script>
+    
+</head>
+<body>
+    
+    <label for="">Good</label>
+    <input type="checkbox" name="rating" value="Good">
+    <label for="">VeryGood</label>
+    <input type="checkbox" name="rating" value="VeryGood">
+    <label for="">Excellent</label>
+    <input type="checkbox" name="rating" value="Excellent">
+    <button onclick="show()">Click</button>
+
+</body>
+</html>
