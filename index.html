@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registerform</title>
+    <link rel="stylesheet" href="rform.css">
+    <script src="rform.js"></script>
+</head>
+<body>
+
+    <form name="regform" method="post" action="valid.html" onsubmit="return validateForm()">
+
+        <h1>RegistrationForm</h1>
+
+        <div>
+            <label for="name">Name</label>
+            <input type="text" class="box" id="name" name="name" placeholder="Enter your name"/>
+            <span id="name-error" class="error-message"></span>
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <input type="text" class="box" id="address" name="address" placeholder="Enter your address"/>
+            <span id="address-error" class="error-message"></span>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" class="box" id="email" name="email" placeholder="Enter your email"/>
+            <span id="email-error" class="error-message"></span>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" class="box" id="pwd" name="pwd" placeholder="Enter your password"/>
+            <span id="pwd-error" class="error-message"></span>
+        </div>
+        <div>
+            <label for="phone">Mobile</label>
+            <input type="tel" class="box" id="phone" name="mobile" placeholder="Enter your mobile number" maxlength="10"/>
+            <span id="phone-error" class="error-message"></span>
+        </div>
+
+        <div class="btn">
+
+            <input type="submit" class="style" value="send" name="submit"/>
+            <input type="reset" class="style" value="reset" name="reset"/>
+    
+        </div>
+    </form>
+    
+</body>
+</html>
