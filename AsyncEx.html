@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsyncEx</title>
+</head>
+<body>
+    <script>
+        const reachA=new Promise((resolve,reject)=>
+        {
+            let reached=false;
+            if(reached)
+            {
+            setTimeout(resolve,2000,"robin reached")
+            }
+            else
+            {
+            reject("Robin not reached")
+            }
+        })
+        async function reachstatus() 
+        {
+            console.log("hai");
+            const reach=await reachA;
+            console.log(reach);
+            console.log("bye");
+        }
+        reachstatus()
+    </script>
+</body>
+</html>

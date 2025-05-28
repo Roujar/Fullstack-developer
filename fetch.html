@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const api="https://official-joke-api.appspot.com/jokes/programming/ten";
+        fetch(api)
+             .then(response=>{
+                if(!response.ok)
+             {
+                throw new Error("sorry sever error")
+             }
+             return response.json();
+             })
+             .then(temp=>{
+                //document.write('data',JSON.stringify(temp));
+                console.log(temp)
+             })
+             .catch(error=>{
+                console.log('error,error')
+             })
+    </script>
+</body>
+</html>
