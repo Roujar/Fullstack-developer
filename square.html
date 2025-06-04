@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x=[1,2,3];
+         let square;
+        for(let i=0;i<x.length;i++) //0<3 1<3 2<3
+       {
+       square=x[i]*x[i]; //1*1=1 x[1]*x[1]=2*=4 x[2]*x[2]=3*3=9
+       console.log(square) //1 4 9
+        }
+        
+        for(let temp of x)
+        {
+            let square=temp*temp;
+            console.log(square);
+        }
+        console.log("map")
+        let sq=x.map((n)=>
+       {
+        return n*n;
+       })
+        console.log(sq);
+
+    </script>
+</body>
+</html>

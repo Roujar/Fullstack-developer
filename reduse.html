@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cost=[10,12,10,14,11,13];
+        var total=0;
+        var total1=0;
+       for (let i=0;i<cost.length;i++)
+       {
+        total=total+cost[i];
+       }
+    //    document.write("using for loop"+total);
+       console.log("using for loop"+total);
+
+       for(let temp of cost){
+        total1=total1+temp;
+       }
+       console.log("using for each loop"+total1);
+
+       var costtotal=cost.reduce((total,element)=>total+element);
+       console.log("using reduce method"+costtotal);
+    </script>
+</body>
+</html>

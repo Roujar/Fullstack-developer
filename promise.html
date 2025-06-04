@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+</head>
+<body>
+    
+    <script>
+
+        const ticketbooking=new Promise((resolve,reject)=>{
+            let bookingsuccess=confirm("Are you want to ticket bookin");
+            if(bookingsuccess)
+              {
+                resolve()
+              }
+            else
+              {
+                reject()
+              }
+        })
+        ticketbooking.then(success)
+                    .catch(failure)
+        function success()
+        {
+            console.log("your ticket was booking successfully")
+        }
+        function failure()
+        {
+            console.log("your ticket booking is failure")
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+</head>
+<body>
+    <script>
+        let users=[{id:7004,name:"Robin",address:"KPM"},{id:7000,name:"Robin",address:"KPM"},{id:6500,name:"Robin",address:"KPM"}];
+        console.log(users);
+
+        let names=users.map((find)=>{
+            return find.name;
+        })
+        // console.log(names);
+        document.write(names);
+
+        let matureuser=users.filter((find)=>{
+            return find.id<7000;
+        })
+        console.log(matureuser);
+
+        /*using function*/
+        for(let temp of users)
+        {
+            if(temp.id<7000){
+                console.log(temp.id);
+            }
+        }
+    </script>
+</body>
+</html>
